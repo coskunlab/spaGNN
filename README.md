@@ -7,4 +7,10 @@ Codes under "subcellular_analyses"  directory should be run under scanpy environ
 Codes under "transcriptomics_analysis" directory should be run under scanpy environment, set up by skim.iml file.
 
 
+
 ## MERFISH analysis
+01_merFishPatchAnalyss.ipynb generates analysis results and figures for patch correlation analysis and the following figures:
+Rna visualization:
+![alt text](https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/fibroblast%20shuffled%20merfish%20cell06%20scatter%20comp%20colors.png)
+
+## SeqFISH analysis
