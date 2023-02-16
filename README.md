@@ -42,6 +42,6 @@ After counting number of times that two genes are neighbors, a permutation analy
 <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20cell%20type.png" height="300"> <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20clustering.png" height="300">
 
 04_networkVisualization.ipynb uses networkx package to visualize gene pairwise proximity scores in network format.
-<img src="">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish_cell_06__patch_23.png">
 
 ## SeqFISH analysis
