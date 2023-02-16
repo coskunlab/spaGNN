@@ -5,3 +5,6 @@ Codes under "image_processing"  directory should be run under skim environment, 
 Codes under "subcellular_analyses"  directory should be run under scanpy environment, set up by scanpyEnv.yml file.
   - "05_connectivityToNetwork.ipynb" should be run under networkx environment, set up by netwoorkEnv.yml file.
 Codes under "transcriptomics_analysis" directory should be run under scanpy environment, set up by skim.iml file.
+
+
+## MERFISH analysis
