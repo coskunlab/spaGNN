@@ -37,11 +37,11 @@ After counting number of times that two genes are neighbors, a permutation analy
 
 03_coclusteringAnalysis.ipynb clusters cells based on single-cell gene count, patch correlation, or network variability. The clustering result and true cell types are visualized using t-sne plot
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20count%20cell%20types.png" height="400">
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20count%20clustering.png" height="400">
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20patch%20correlation%20cell%20type.png" height="400">
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20patch%20correlation%20clustering.png" height="400">
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20cell%20type.png" height="400">
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20clustering.png" height="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20count%20cell%20types.png" height="300">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20count%20clustering.png" height="300">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20patch%20correlation%20cell%20type.png" height="300">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20patch%20correlation%20clustering.png" height="300">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20cell%20type.png" height="300">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20clustering.png" height="300">
 
 ## SeqFISH analysis
