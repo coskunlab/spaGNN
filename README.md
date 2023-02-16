@@ -11,6 +11,7 @@ Codes under "transcriptomics_analysis" directory should be run under scanpy envi
 ## MERFISH analysis
 01_merFishPatchAnalyss.ipynb generates analysis results and figures for patch correlation analysis and the following figures:
 Rna visualization:
-![alt text](img src="https://your-image-url.type" width="100")
+<img src="[https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/fibroblast%20shuffled%20merfish%20cell06%20scatter%20comp%20colors.png" width="80">
+
 
 ## SeqFISH analysis
