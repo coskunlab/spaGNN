@@ -9,6 +9,11 @@ Codes under "transcriptomics_analysis" directory should be run under scanpy envi
 
 
 ## MERFISH analysis
+
+All code in MERFISH analysis should be run under the scenv environment except for 04_networkVisualization.ipynb. 
+
+04_networkVisualization.ipynb should be run under the network environment. The network environment can be 
+
 01_merFishPatchAnalyss.ipynb generates analysis results and figures for patch correlation analysis and the following figures:
 
 Rna visualization:
@@ -29,5 +34,14 @@ The locations of gene pairs with positive and negative correlations are also plo
 After counting number of times that two genes are neighbors, a permutation analysis was performed to determine the proximity score of two genes. Higher proximity scores mean the two genes are more likely to be neighbors given the copy number of each genes. Pairs of genes within different proximity scores are also visualized in a scatter plot:
 
 <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/cell06%20patch2%20scatter.png" width="600">
+
+03_coclusteringAnalysis.ipynb clusters cells based on single-cell gene count, patch correlation, or network variability. The clustering result and true cell types are visualized using t-sne plot
+
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20count%20cell%20types.png" height="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20count%20clustering.png" height="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20patch%20correlation%20cell%20type.png" height="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20gene%20patch%20correlation%20clustering.png" height="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20cell%20type.png" height="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/tsne%20merfish%20network%20variability%20clustering.png" height="400">
 
 ## SeqFISH analysis
