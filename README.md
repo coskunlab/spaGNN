@@ -9,9 +9,10 @@ Codes under "transcriptomics_analysis" directory should be run under scanpy envi
 
 
 ## MERFISH analysis
-01_merFishPatchAnalyss.ipynb generates analysis results and figures for patch correlation analysis and the following figures:
+01_merFishPatchAnalyss.ipynb generates analysis results and figures for patch correlation analysis and the following figures:\n
 Rna visualization:
-![](https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/fibroblast%20shuffled%20merfish%20cell06%20scatter%20comp%20colors.png | width=80)
+![Alt text](https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/fibroblast%20shuffled%20merfish%20cell06%20scatter%20comp%20colors.png)
+Single-cell patch detection:
 
 
 ## SeqFISH analysis
