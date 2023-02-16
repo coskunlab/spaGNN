@@ -46,6 +46,6 @@ After counting number of times that two genes are neighbors, a permutation analy
 
 05_clustering_eval.ipynb evaluated the mismatch between the clustering results and cell types. Confusion matrix shown below are count-based, patch correlation-based, and network variability-based clustering.
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20count.png" height="300">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20patch.png" height="300">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20network.png" height="300">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20count.png" width="300">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20patch.png" width="300">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20network.png" width="300">
 
 ## SeqFISH analysis
