@@ -98,7 +98,7 @@ Then the amount of gene per local neighborhood is counted, and correlation of ge
 
 <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/protein%20rna%20subcellular%20region%20correlation_v4.png" height="600">
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/showhch%20patch5.png" height="450">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/hch_006_06_5.png" height="450">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/showhch%20patch5.png" height="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/hch_006_06_5.png" height="200">
 
 07_circularNetworks.ipynb extract patch correlation and gene neighborhood networks based on distances from the edge of cells.
 
