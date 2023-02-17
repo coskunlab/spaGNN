@@ -68,15 +68,18 @@ The spatially resolved gene neighborhood network analysis is perfomed by codes u
 
 01_subcellularPatches.ipynb performs clustering-based subcellular patch detection and patch correlation calculation. Detected patches and patch correlation is shown below:
 
-patches, correlation
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/showexp2_uc_017_1.png" width="500"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/uc%20mean%20correlation.png" width="500">
 
 02_neighborhoodCorrelationAnalyses.ipynb performs analysis on combined patch correlations. All pair-wise correlations are combined and analyzed for HBM, HUC, and HCH dataset. A PCA analysis was conducted, and statistical comparison was conducted to identify significant differences.
 
-PCA scatter, pc1 boxplot
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/pca%20correlation%20cell%20type.png" width="500">
+
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/bm%20uc%20hch%20pc1%20correlation.png" height="400">
 
 03_subcellularNetworkInference.ipynb finds local gene neighborhoods as shown below:
 
 scatter with local neighborhood
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/nearest%20neighbor%20visual.png" height="300">
 
 Then the amount of gene per local neighborhood is counted, and correlation of gene is then calculated. The mean and standard deviation of pairwise gene neighborhood correlation was computed for each cell, and cells were clustered based on the mean and standard deviation of pairwise gene neighborhood correlations. The clustering result and cell types are visualized in t-SNE plots shown below:
 
