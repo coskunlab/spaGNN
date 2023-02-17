@@ -68,11 +68,13 @@ The spatially resolved gene neighborhood network analysis is perfomed by codes u
 
 01_subcellularPatches.ipynb performs clustering-based subcellular patch detection and patch correlation calculation. Detected patches and patch correlation is shown below:
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/showexp2_uc_017_1.png" width="500"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/uc%20mean%20correlation.png" width="500">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/showexp2_uc_017_1.png" height="300"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/uc%20mean%20correlation.png" height="300">
 
 02_neighborhoodCorrelationAnalyses.ipynb performs analysis on combined patch correlations. All pair-wise correlations are combined and analyzed for HBM, HUC, and HCH dataset. A PCA analysis was conducted, and statistical comparison was conducted to identify significant differences.
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/pca%20correlation%20cell%20type.png" height="350"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/bm%20uc%20hch%20pc1%20correlation.png" height="350">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/pca%20correlation%20cell%20type.png" height="350">
+
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/bm%20uc%20hch%20pc1%20correlation.png" height="350">
 
 03_subcellularNetworkInference.ipynb finds local gene neighborhoods as shown below:
 
