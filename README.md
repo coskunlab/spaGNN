@@ -49,3 +49,10 @@ After counting number of times that two genes are neighbors, a permutation analy
 <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20count.png" width="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20patch.png" width="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20network.png" width="200">
 
 ## SeqFISH analysis
+
+The analysis of MSC seqFISH dataset is similar to the analysis of MERFISH dataset with the addition of image analysis using codes in the "image_processing" folder.
+
+00_Registration.ipynb cross-register images fro different cycles
+
+01_dotDetectionThreCheck.ipynb allows user to manually identify threshold for dot detection in each channel. The following plot is generated to help examin the threshold:
+<img src=" https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/image_processing/figures/dot%20check.png" width="300'>
