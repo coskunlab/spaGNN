@@ -82,17 +82,17 @@ The spatially resolved gene neighborhood network analysis is perfomed by codes u
 
 Then the amount of gene per local neighborhood is counted, and correlation of gene is then calculated. The mean and standard deviation of pairwise gene neighborhood correlation was computed for each cell, and cells were clustered based on the mean and standard deviation of pairwise gene neighborhood correlations. The clustering result and cell types are visualized in t-SNE plots shown below:
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20network%20variability%20clustering.png" width="400">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20network%20variability%20cell%20types.png" width="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20network%20variability%20clustering.png" height="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20network%20variability%20cell%20types.png" height="200">
 
 04_coclusteringAnalysis.ipynb clusters cells based on single-cell RNA count and patch correlations. The clustering results and cell types are visualized on t-SNE plots as shown below:
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20gene%20count%20clustering.png" width="400">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20gene%20count%20cell%20types.png" width="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20gene%20count%20clustering.png" height="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20gene%20count%20cell%20types.png" height="200">
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20patch%20correlation%20clustering.png" width="400">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20patch%20correlation%20cell%20types.png" width="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20patch%20correlation%20clustering.png" height="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/tsne%20msc%20patch%20correlation%20cell%20types.png" height="200">
 
 05_connectivityToNetwork.ipynb visualizes the pairwise gene neighborhood correlations of each subcellular patch in network format. This code should be run under the network environment specified in networkEnv.yml.
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/exp1_uc_017_6.png" width="400"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/exp1_uc_017_19.png" width="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/exp1_uc_017_6.png" height="250"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/exp1_uc_017_19.png" height="250">
 
 06_rnaProteinNetwork.ipynb expands the subcellular gene neighborhood networks to protein markers. Both patch correlations and local gene neighborhood networks are expanded to inlcude protein markers.
 
