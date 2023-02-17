@@ -1,6 +1,8 @@
 # spaGNN
 
-This repository contains code for the manuscript "Spatially resolved gene neighborhood networks in single cells". 
+This repository contains code for the manuscript "Spatially resolved gene neighborhood networks in single cells". Codes are run under specified Anaconda environments.
+
+To set up environments, run the following command: `conda env create -f filename.yml`
 
 ## MERFISH analysis
 
