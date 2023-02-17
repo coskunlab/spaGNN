@@ -4,6 +4,8 @@ This repository contains code for the manuscript "Spatially resolved gene neighb
 
 To set up environments, run the following command: `conda env create -f filename.yml`
 
+Example data can be found at: https://doi.org/10.5281/zenodo.7651412
+
 ## MERFISH analysis
 
 All code in MERFISH analysis should be run under the scenv environment except for 04_networkVisualization.ipynb. 
