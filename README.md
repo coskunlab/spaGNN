@@ -50,10 +50,54 @@ After counting number of times that two genes are neighbors, a permutation analy
 
 ## SeqFISH analysis
 
-The analysis of MSC seqFISH dataset is similar to the analysis of MERFISH dataset with the addition of image analysis using codes in the "image_processing" folder.
+The analysis of MSC seqFISH dataset is similar to the analysis of MERFISH dataset with the addition of image analysis using codes in the "image_processing" folder. All image processing is conducted under skim environment, specified by skimEnv.yml.
 
 00_Registration.ipynb cross-register images fro different cycles
 
 01_dotDetectionThreCheck.ipynb allows user to manually identify threshold for dot detection in each channel. The following plot is generated to help examin the threshold:
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/image_processing/figures/dot%20check.png" width="700">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/image_processing/figures/dot%20check.png" width="2000">
+
+02_2dDotDetection.ipynb takes the input directories and detect dots. The detected dots are saved as .hdf5 files. A matrix of the size length x width x number of genes is stored. Each layer represent a gene. The value is 1 at the position of detected dots and 0 otherwise.
+
+03_cytokineDetection.ipynb provides more detailed dot detection if dot detected by 02_2dDotDetection.ipynb needs additional tuning.
+
+The spatially resolved gene neighborhood network analysis is perfomed by codes under "subcelluar_analysis" folder. All subcellular analysis is performed under the scenv environment specified by scanpyEnv.yml.
+
+00_dotFiles2pkl.ipynb takes the .hdf5 files containing the information regarding detected dots and generate a dictionary for each cell. The keys of the dictionary are the gene names, and each item is a list of row and column positions of detected transcripts.
+
+01_subcellularPatches.ipynb performs clustering-based subcellular patch detection and patch correlation calculation. Detected patches and patch correlation is shown below:
+
+patches, correlation
+
+02_neighborhoodCorrelationAnalyses.ipynb performs analysis on combined patch correlations. All pair-wise correlations are combined and analyzed for HBM, HUC, and HCH dataset. A PCA analysis was conducted, and statistical comparison was conducted to identify significant differences.
+
+PCA scatter, pc1 boxplot
+
+03_subcellularNetworkInference.ipynb finds local gene neighborhoods as shown below:
+
+scatter with local neighborhood
+
+Then the amount of gene per local neighborhood is counted, and correlation of gene is then calculated. The mean and standard deviation of pairwise gene neighborhood correlation was computed for each cell, and cells were clustered based on the mean and standard deviation of pairwise gene neighborhood correlations. The clustering result and cell types are visualized in t-SNE plots shown below:
+
+msc tsnes, network variability
+
+04_coclusteringAnalysis.ipynb clusters cells based on single-cell RNA count and patch correlations. The clustering results and cell types are visualized on t-SNE plots as shown below:
+
+tsne, count and correlations
+
+05_connectivityToNetwork.ipynb visualizes the pairwise gene neighborhood correlations of each subcellular patch in network format. This code should be run under the network environment specified in networkEnv.yml.
+
+Network
+
+06_rnaProteinNetwork.ipynb expands the subcellular gene neighborhood networks to protein markers. Both patch correlations and local gene neighborhood networks are expanded to inlcude protein markers.
+
+rna-protein correlation, rna-protein networks
+
+07_circularNetworks.ipynb extract patch correlation and gene neighborhood networks based on distances from the edge of cells.
+
+Circular patches
+
+08_clustering_eval.ipynb evaluated the mismatch between the clustering results and cell types. Confusion matrix shown below are count-based, patch correlation-based, and network variability-based clustering.
+
+confusion matrices
