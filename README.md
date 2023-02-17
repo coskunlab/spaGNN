@@ -8,7 +8,7 @@ To set up environments, run the following command: `conda env create -f filename
 
 All code in MERFISH analysis should be run under the scenv environment except for 04_networkVisualization.ipynb. 
 
-04_networkVisualization.ipynb should be run under the network environment. The network environment can be 
+04_networkVisualization.ipynb should be run under the network environment.
 
 01_merFishPatchAnalyss.ipynb generates analysis results and figures for patch correlation analysis and the following figures:
 
