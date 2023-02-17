@@ -78,7 +78,7 @@ The spatially resolved gene neighborhood network analysis is perfomed by codes u
 
 03_subcellularNetworkInference.ipynb finds local gene neighborhoods as shown below:
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/nearest%20neighbor%20visual.png" height="700">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/nearest%20neighbor%20visual.png" height="300">
 
 Then the amount of gene per local neighborhood is counted, and correlation of gene is then calculated. The mean and standard deviation of pairwise gene neighborhood correlation was computed for each cell, and cells were clustered based on the mean and standard deviation of pairwise gene neighborhood correlations. The clustering result and cell types are visualized in t-SNE plots shown below:
 
@@ -102,8 +102,9 @@ Then the amount of gene per local neighborhood is counted, and correlation of ge
 
 07_circularNetworks.ipynb extract patch correlation and gene neighborhood networks based on distances from the edge of cells.
 
-Circular patches
+
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/exp1%20uc%20013%20cell1.png" width="300">
 
 08_clustering_eval.ipynb evaluated the mismatch between the clustering results and cell types. Confusion matrix shown below are count-based, patch correlation-based, and network variability-based clustering.
 
-confusion matrices
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20expression%20clustering%20v.%20cell%20type.pkl.png" height="300"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20correlation%20clustering%20v.%20cell%20type.pkl.png" height="300"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20network%20variance%20clustering%20v.%20cell%20type.pkl.png" height="300">
