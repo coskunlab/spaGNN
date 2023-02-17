@@ -47,7 +47,7 @@ After counting number of times that two genes are neighbors, a permutation analy
 
 05_clustering_eval.ipynb evaluated the mismatch between the clustering results and cell types. Confusion matrix shown below are count-based, patch correlation-based, and network variability-based clustering.
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20count.png" width="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20patch.png" width="200">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20network.png" width="200">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20count.png" width="250">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20patch.png" width="250">  <img src="https://github.com/coskunlab/spaGNN/blob/main/MERFISH_analysis/code/figures/merfish%20confusion%20matrix%20network.png" width="250">
 
 ## SeqFISH analysis
 
@@ -108,4 +108,4 @@ Then the amount of gene per local neighborhood is counted, and correlation of ge
 
 08_clustering_eval.ipynb evaluated the mismatch between the clustering results and cell types. Confusion matrix shown below are count-based, patch correlation-based, and network variability-based clustering.
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20expression%20clustering%20v.%20cell%20type.pkl.png" height="300"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20correlation%20clustering%20v.%20cell%20type.pkl.png" height="300"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20network%20variance%20clustering%20v.%20cell%20type.pkl.png" height="300">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20expression%20clustering%20v.%20cell%20type.pkl.png" height="250"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20correlation%20clustering%20v.%20cell%20type.pkl.png" height="250"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20network%20variance%20clustering%20v.%20cell%20type.pkl.png" height="250">
