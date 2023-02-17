@@ -72,9 +72,7 @@ The spatially resolved gene neighborhood network analysis is perfomed by codes u
 
 02_neighborhoodCorrelationAnalyses.ipynb performs analysis on combined patch correlations. All pair-wise correlations are combined and analyzed for HBM, HUC, and HCH dataset. A PCA analysis was conducted, and statistical comparison was conducted to identify significant differences.
 
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/pca%20correlation%20cell%20type.png" width="500">
-
-<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/bm%20uc%20hch%20pc1%20correlation.png" height="400">
+<img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/pca%20correlation%20cell%20type.png" height="350"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/bm%20uc%20hch%20pc1%20correlation.png" height="350">
 
 03_subcellularNetworkInference.ipynb finds local gene neighborhoods as shown below:
 
