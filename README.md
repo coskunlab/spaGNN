@@ -111,3 +111,7 @@ Then the copy number of genes per local neighborhood is counted, and the correla
 08_clustering_eval.ipynb evaluated the mismatch between the clustering results and cell types. Confusion matrices shown below are count-based, patch correlation-based, and network variability-based clustering.
 
 <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20expression%20clustering%20v.%20cell%20type.pkl.png" height="250"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20correlation%20clustering%20v.%20cell%20type.pkl.png" height="250"> <img src="https://github.com/coskunlab/spaGNN/blob/main/seqFISH_analysis/subcellular_analysis/figures/seqfish%20confusion%20matrix%20network%20variance%20clustering%20v.%20cell%20type.pkl.png" height="250">
+
+# Citation
+
+Please cite: Fang Z, Ford AJ, Hu T, Zhang N, Mantalaris A, Coskun AF. Subcellular spatially resolved gene neighborhood networks in single cells. Cell Reports Methods. 2023;3(5):100476. doi:10.1016/j.crmeth.2023.100476![image](https://github.com/coskunlab/spaGNN/assets/89601137/b54393dd-370e-4d98-844a-dd062470b6a7)
