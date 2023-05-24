@@ -55,7 +55,7 @@ After counting the number of times that two genes are neighbors, a permutation a
 
 The analysis of MSC seqFISH dataset is similar to the analysis of MERFISH dataset with the addition of image analysis using codes in the "image_processing" folder. All image processing is conducted under skim environment, specified by skimEnv.yml.
 
-00_Registration.ipynb cross-register images fro different cycles
+00_Registration.ipynb cross-register images from different cycles
 
 01_dotDetectionThreCheck.ipynb allows the user to manually identify a threshold for dot detection in each channel. The following plot is generated to help examine the threshold:
 
